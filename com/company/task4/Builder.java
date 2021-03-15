@@ -1,6 +1,6 @@
 package com.company.task4;
 
-public interface Builder {
+public interface Builder {//interface
     public void reset();
     public void buildWalls();
     public void buildDoors();

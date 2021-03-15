@@ -1,6 +1,6 @@
 package com.company.task4;
 
-public class HouseBuilder implements Builder {
+public class HouseBuilder implements Builder {//builder with output
     private House house;
 
     HouseBuilder() {

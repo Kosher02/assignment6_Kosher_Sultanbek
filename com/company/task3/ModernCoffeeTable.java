@@ -1,6 +1,6 @@
 package com.company.task3;
 
-public class ModernCoffeeTable implements CoffeeTable {
+public class ModernCoffeeTable implements CoffeeTable {//class
     @Override
     public void hasLegs() {
 

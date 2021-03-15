@@ -4,12 +4,12 @@ class factory {
 
     public transport getTransport(String type) {
         switch(type) {
-            case "CAR" :
-                return new Car();
-            case "BOAT" :
-                return new Boat();
+            case "CAR" ://cases
+                return new Car();//output
+            case "BOAT" ://another case
+                return new Boat();//output
             default:
-                return null;
+                return null;//0
         }
     }
 }

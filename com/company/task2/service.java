@@ -1,7 +1,7 @@
 package com.company.task2;
 
 class service{
-    private static service onlyInstance;
+    private static service onlyInstance;//static
 
     private service() {
     }
@@ -9,7 +9,7 @@ class service{
 
     synchronized public static service getInstance() {
 
-        if (onlyInstance == null) {
+        if (onlyInstance == null) {//if else for checking
             synchronized (service.class) {
                 if (onlyInstance == null) {
                     onlyInstance = new service();
@@ -21,5 +21,5 @@ class service{
 
     public transport getCab(String type) {
         return new factory().getTransport(type);
-    }
+    }//getter
 }

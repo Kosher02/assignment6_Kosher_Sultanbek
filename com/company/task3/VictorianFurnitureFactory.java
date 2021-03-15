@@ -4,7 +4,7 @@ public class VictorianFurnitureFactory implements FurnitureFactory {
     @Override
     public Chair createChair() {
         return new VictorianChair();
-    }
+    }//return the value
     @Override
     public CoffeeTable createCoffeeTable() {
         return new VictorianCoffeeTable();
